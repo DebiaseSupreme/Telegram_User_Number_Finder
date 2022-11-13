@@ -4,6 +4,7 @@
 from telethon import TelegramClient, events, sync
 from telethon.tl.types import InputPhoneContact
 from telethon import functions, types
+ 
 
 def check(phone_number, usr):
     try:
@@ -17,7 +18,7 @@ def check(phone_number, usr):
         return res
 
 def list_checker():
-    list_file = input("List of numbers: ")
+    list_file = input("List of numbers:https://t.me/bettingtips_freetips_fixedgames")
     usr = input("Username Target:@kingdaniel100")
     list = open(list_file, 'r').read().splitlines()
     for num in list:
