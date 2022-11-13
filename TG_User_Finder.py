@@ -1,6 +1,6 @@
 
 #!/usr/local/bin/python3
-# coded by:swagkarna
+# coded by:DB GUCCI
 from telethon import TelegramClient, events, sync
 from telethon.tl.types import InputPhoneContact
 from telethon import functions, types
@@ -18,7 +18,7 @@ def check(phone_number, usr):
 
 def list_checker():
     list_file = input("List of numbers: ")
-    usr = input("Username Target: ")
+    usr = input("Username Target:@kingdaniel100")
     list = open(list_file, 'r').read().splitlines()
     for num in list:
         try:
